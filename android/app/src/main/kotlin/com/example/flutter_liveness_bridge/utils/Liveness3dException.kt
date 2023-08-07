@@ -1,6 +1,6 @@
-package br.com.oitiliveness3d.oiti_liveness3d.utils
+package com.example.flutter_liveness_bridge.utils
 
-open class AltLiveness3dException(val code: String, message: String) : Exception(message) {}
+open class Liveness3dException(val code: String, message: String) : Exception(message) {}
 
 class InvalidAppKey(code: String = "INVALID_APP_KEY", message: String = "INVALID_APP_KEY") :
-    AltLiveness3dException(code, message) {}
+    Liveness3dException(code, message) {}

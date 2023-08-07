@@ -16,6 +16,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   var appKey =
       'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjZXJ0aWZhY2UiLCJ1c2VyIjoiOTMyNzcwMTVBMjEyODUyMTMzQjk1NDUyNjA2NDQzRDY5fG1vYmlsZS5hcGlnbG9iYWwiLCJlbXBDb2QiOiIwMDAwMDAwNjc5IiwiZmlsQ29kIjoiMDAwMDAwMjc3NCIsImNwZiI6IjU0MjczOTY2MDg1Iiwibm9tZSI6IjFGNUZGRDcxQkQ1QTFBMDJBREVCOTg3M0JDNkUxMjg3MkM4RURBMjM2MzE5REMwNTUzQ0MxREJCNkE4RTZBOTA5MjU4OTMyODVFQTEwRjcwODJEODc3NUFCREZFNDUzMENCQ0M3NkM2MTU1RUFEMzRDRTk4QjdDNTcwNDIyOTZGfEFTSEFVQVMgQVNVSEFTSFUgQVNVSCIsIm5hc2NpbWVudG8iOiIwOC8xMC8xOTkxIiwiZWFzeS1pbmRleCI6IkFBQUFFcU1adjdmNXJhUFVMMU1qaGVjb2lKTERLK2VOL3V5dFBjaHJKTW9CbGl3alJSVnAxNks2eHNCYXN3PT0iLCJrZXkiOiJRV0pzWlNCaGJpQm9iM0JsSUc5bUlHSnZaSGt1SUVGdWVTQnVZWGtnYzJoNWJtVT0iLCJleHAiOjE2OTEzMjExNDMsImlhdCI6MTY5MTMyMDg0M30.B3cfoUgQdSLyqj6R3Z-OvjHoBjzMomWrRdhUiHUefZs';
+  var isProd = false;
 
   var resultStatus = 'Jornada liveness não iniciada.';
   var resultContent =
@@ -34,7 +35,7 @@ class _MyAppState extends State<MyApp> {
               child: ElevatedButton(
                 onPressed: () async {
                   try {
-                    await OitiLiveness3d.startLiveness(appKey, false)
+                    await OitiLiveness3d.startLiveness(appKey, isProd)
                         .then((result) => _onLiveness3DSuccess(result));
                   } on PlatformException catch (error) {
                     _onLiveness3DError(error);
@@ -61,7 +62,7 @@ class _MyAppState extends State<MyApp> {
 
   _onLiveness3DSuccess(LivenessSuccessResult result) {
     setState(() {
-      resultStatus = 'Sucesso';
+      resultStatus = 'Success';
       resultContent =
           'Valid: ${result.valid}\nCodID: ${result.codId}\nCause: ${result.cause}\nProtocol: ${result.protocol}\nScan Result Blob: ${result.scanResultBlob}\n';
     });
