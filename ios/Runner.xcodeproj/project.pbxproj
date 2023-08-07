@@ -17,6 +17,10 @@
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		A1ABFB6F8BDCDDB606098F5A /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530CAD1936FFB059CA45F4DF /* Pods_RunnerTests.framework */; };
 		E82E30B32A7F9D4D00649A2D /* OitiLiveness3dResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E30B22A7F9D4D00649A2D /* OitiLiveness3dResult.swift */; };
+		E886988E2A81417E0005B441 /* InstructionCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E886988A2A81417D0005B441 /* InstructionCustomView.xib */; };
+		E886988F2A81417E0005B441 /* PermissionCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886988B2A81417D0005B441 /* PermissionCustomView.swift */; };
+		E88698902A81417E0005B441 /* InstructionCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886988C2A81417D0005B441 /* InstructionCustomView.swift */; };
+		E88698912A81417E0005B441 /* PermissionCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E886988D2A81417D0005B441 /* PermissionCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		B2C47CE112C935BA07F9DC8B /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		B3322D00B212F75DDA97E14E /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		E82E30B22A7F9D4D00649A2D /* OitiLiveness3dResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OitiLiveness3dResult.swift; sourceTree = "<group>"; };
+		E886988A2A81417D0005B441 /* InstructionCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionCustomView.xib; sourceTree = "<group>"; };
+		E886988B2A81417D0005B441 /* PermissionCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionCustomView.swift; sourceTree = "<group>"; };
+		E886988C2A81417D0005B441 /* InstructionCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionCustomView.swift; sourceTree = "<group>"; };
+		E886988D2A81417D0005B441 /* PermissionCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PermissionCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				E88698892A81412D0005B441 /* CustomViews */,
 				E82E30B12A7F9CFE00649A2D /* Extensions */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
@@ -173,6 +182,17 @@
 				E82E30B22A7F9D4D00649A2D /* OitiLiveness3dResult.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E88698892A81412D0005B441 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E886988C2A81417D0005B441 /* InstructionCustomView.swift */,
+				E886988A2A81417D0005B441 /* InstructionCustomView.xib */,
+				E886988B2A81417D0005B441 /* PermissionCustomView.swift */,
+				E886988D2A81417D0005B441 /* PermissionCustomView.xib */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +292,8 @@
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
+				E886988E2A81417E0005B441 /* InstructionCustomView.xib in Resources */,
+				E88698912A81417E0005B441 /* PermissionCustomView.xib in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +408,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E886988F2A81417E0005B441 /* PermissionCustomView.swift in Sources */,
+				E88698902A81417E0005B441 /* InstructionCustomView.swift in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				E82E30B32A7F9D4D00649A2D /* OitiLiveness3dResult.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
