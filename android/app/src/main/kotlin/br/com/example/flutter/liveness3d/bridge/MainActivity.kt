@@ -41,7 +41,7 @@ class MainActivity: FlutterActivity() {
         try {
             manager = Liveness3dActivity(context, resultFlutter, appKey, isProd)
             val intent = manager?.getIntent()
-            activity?.startActivityForResult(intent, L3_RESULT_REQUEST)
+            activity.startActivityForResult(intent, L3_RESULT_REQUEST)
         } catch (e: Liveness3dException) {
             resultFlutter?.error(e.code, e.message, null)
         } catch (e: Exception) {
