@@ -56,13 +56,7 @@ class InstructionCustomView: UIView, CustomInstructionView {
         ocrosImage.image = UIImage(named: "ocros")
         bunehImage.image = UIImage(named: "buneh")
         
-        titleLablel.text = NSLocalizedString("instructions_screen_title", comment: "")
         
-        text1Lablel.text = NSLocalizedString("instructions_screen_text1", comment: "")
-        
-        text2Lablel.text = NSLocalizedString("instructions_screen_text2", comment: "")
-        
-        continueButton.setTitle(NSLocalizedString("instructions_screen_continue_button", comment: ""), for: .normal)
         
         backButton.frame = CGRect(x: 58, y: 32, width: 47, height: 47)
         backButton.setImage(UIImage(named: "close_button"), for: .normal)

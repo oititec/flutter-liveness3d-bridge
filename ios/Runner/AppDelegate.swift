@@ -57,8 +57,8 @@ import FaceCaptcha
         let viewController = Liveness3DViewController(
             liveness3DUser: user,
             delegate: self,
-            customInstructionView: InstructionCustomView() as? CustomInstructionView,
-            customPermissionView: PermissionCustomView() as? CustomCameraPermissionView
+            customInstructionView: InstructionCustomView() as CustomInstructionView,
+            customPermissionView: PermissionCustomView() as CustomCameraPermissionView
         )
         
         viewController.modalPresentationStyle = .fullScreen

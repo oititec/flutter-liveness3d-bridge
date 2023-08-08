@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,11 +13,10 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PermissionCustomView" customModule="alt_liveness3d" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PermissionCustomView" customModule="Runner" customModuleProvider="target">
             <connections>
                 <outlet property="backButton" destination="C4R-Rr-IeP" id="2uP-0g-sjv"/>
                 <outlet property="continueButton" destination="Rcz-dm-fnz" id="No6-Mq-ZEc"/>
-                <outlet property="deviceImage" destination="9BE-8Y-iLG" id="QZF-k1-HX8"/>
                 <outlet property="textLablel" destination="Sba-IA-D81" id="RBL-zJ-sou"/>
                 <outlet property="titleLablel" destination="x6B-XH-VTQ" id="yqJ-Ci-gKH"/>
                 <outlet property="view" destination="dR0-Sa-X8I" id="KW7-oG-lju"/>
@@ -37,10 +36,6 @@
                         <backgroundConfiguration key="background" image="close_button"/>
                     </buttonConfiguration>
                 </button>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="device" translatesAutoresizingMaskIntoConstraints="NO" id="9BE-8Y-iLG">
-                    <rect key="frame" x="25" y="122" width="340" height="175"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Acesso à câmera" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6B-XH-VTQ">
                     <rect key="frame" x="25" y="305" width="340" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -81,6 +76,5 @@
     </objects>
     <resources>
         <image name="close_button" width="25" height="24"/>
-        <image name="device" width="130" height="131"/>
     </resources>
 </document>

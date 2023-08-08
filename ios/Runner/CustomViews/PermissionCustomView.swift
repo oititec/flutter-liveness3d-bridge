@@ -16,7 +16,8 @@ class PermissionCustomView: UIView, CustomCameraPermissionView {
     var closeButton: UIButton!
     
     func showBottomSheet(visibility: FaceCaptcha.Visibility) {
-        <#code#>
+        
+    
     }
     
     // MARK: - Outlets
@@ -50,11 +51,7 @@ class PermissionCustomView: UIView, CustomCameraPermissionView {
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
-        deviceImage.image = UIImage(named: "device")
-        
-        titleLablel.text = NSLocalizedString("check_permission_title", comment: "")
-        
-        textLablel.text = NSLocalizedString("check_permission_description", comment: "")
+       
         
         continueButton.setTitle(NSLocalizedString("bt_check", comment: ""), for: .normal)
         

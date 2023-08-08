@@ -1,4 +1,4 @@
-package com.example.flutter_liveness_bridge.utils
+package br.com.example.flutter.liveness3d.bridge.utils
 
 open class Liveness3dException(val code: String, message: String) : Exception(message) {}
 

@@ -74,6 +74,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
+//TextField para adicionar a App Key gerada no backend do cliente Oiti.
   Widget appKeySection() {
     return Padding(
       padding: const EdgeInsets.only(left: 20, right: 20, bottom: 45),
@@ -84,14 +85,13 @@ class _MyAppState extends State<MyApp> {
         ),
         obscureText: false,
         controller: _controller,
-        onSubmitted: (value) => _pasteAppKey(),
+        onChanged: (value) => _pasteAppKey(),
       ),
     );
   }
 
   _pasteAppKey() {
     setState(() => appKey = _controller.text);
-    _controller.text = '';
   }
 
   _onLiveness3DSuccess(LivenessSuccessResult result) {
