@@ -42,6 +42,7 @@ As instruções de uso, integração, implementação e customização do **Live
 
 - [Configuração Inicial no iOS](Documentation/iosCONFIGURATION.md);
 - [Configuração do Flutter Engine](Documentation/moduleandPackageKOTLIN.md);
+- [Como configurar o Liveness3DUser()?](Documentation/xmlCUSTOMIZATION.md);
 - [Como fazer a estilização dos Liveness3DTextsKey()?](Documentation/liveness3DTextCUSTOMIZATIONKOTLIN.md);
 - [Como fazer a estilização do Liveness3DTheme()?](Documentation/xmlCUSTOMIZATION.md);
 - [Guia de customização do Liveness3DTheme](Documentation/liveness3DThemeAndroidCUSTOMIZATION.md);
