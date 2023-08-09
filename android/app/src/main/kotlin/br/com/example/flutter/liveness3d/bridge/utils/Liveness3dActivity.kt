@@ -3,7 +3,6 @@ package br.com.example.flutter.liveness3d.bridge.utils
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import br.com.oiti.liveness3d.app.ui.HybridLiveness3DActivity
 import br.com.oiti.liveness3d.app.ui.Liveness3DActivity
 import br.com.oiti.liveness3d.data.model.ENVIRONMENT3D
 import br.com.oiti.liveness3d.data.model.Liveness3DUser
@@ -57,7 +56,7 @@ class Liveness3dActivity(
     }
 
     fun onLiveness3DResultCancelled(data: Intent?) {
-        val errorMessage: String = data?.getStringExtra(HybridLiveness3DActivity.PARAM_RESULT_ERROR) ?: ""
+        val errorMessage: String = data?.getStringExtra(Liveness3DActivity.PARAM_RESULT_ERROR) ?: ""
         Log.d("TAG", errorMessage)
         result?.error(errorMessage, errorMessage, null)
     }

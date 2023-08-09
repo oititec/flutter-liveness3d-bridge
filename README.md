@@ -24,30 +24,30 @@ As instruções de uso, integração, implementação e customização do **Live
 
 **Flutter:**
 
-- [Configuração do Platform Channels]().
-- [Configuração dos Responses]().
+- [Configuração do Platform Channels](Documentation/flutter/PlatformChannelConfig.md).
+- [Tratamento de Responses/Callback](Documentation/flutter/Liveness3dResponses.md).
 
 **Android**
 
-- [Configuração Inicial no Android]();
-- [Configuração do Flutter Engine](Documentation/moduleandPackageKOTLIN.md);
-- [Como configurar o Liveness3DUser()?](Documentation/xmlCUSTOMIZATION.md);
-- [Como fazer a estilização dos Liveness3DTextsKey()?](Documentation/liveness3DTextCUSTOMIZATIONKOTLIN.md);
-- [Como fazer a estilização do Liveness3DTheme()?](Documentation/xmlCUSTOMIZATION.md);
-- [Guia de customização do Liveness3DTheme](Documentation/liveness3DThemeAndroidCUSTOMIZATION.md);
-- [Guia de Implementação de View Customizada](Documentation/customViewANDROID.md);
-- [Como Tratar os Responses/Callback?](Documentation/customViewANDROID.md);
+- [Configuração Inicial no Android](Documentation/android/InitConfig.md);
+- [Configuração do FlutterEngine e MethodChannel](Documentation/android/FlutterEngine.md);
+- [Como configurar o Liveness3DUser()?]();
+- [Como fazer a estilização dos Liveness3DTextsKey()?]();
+- [Como fazer a estilização do Liveness3DTheme()?]();
+- [Guia de customização do Liveness3DTheme]();
+- [Guia de Implementação de View Customizada]();
+- [Como Enviar para o Flutter os Responses/Callback](Documentation/android/Callback.md);
 
 **iOS:**
 
-- [Configuração Inicial no iOS](Documentation/iosCONFIGURATION.md);
-- [Configuração do Flutter Engine](Documentation/moduleandPackageKOTLIN.md);
-- [Como configurar o Liveness3DUser()?](Documentation/xmlCUSTOMIZATION.md);
-- [Como fazer a estilização dos Liveness3DTextsKey()?](Documentation/liveness3DTextCUSTOMIZATIONKOTLIN.md);
-- [Como fazer a estilização do Liveness3DTheme()?](Documentation/xmlCUSTOMIZATION.md);
-- [Guia de customização do Liveness3DTheme](Documentation/liveness3DThemeAndroidCUSTOMIZATION.md);
-- [Guia de Implementação de View Customizada](Documentation/customViewANDROID.md);
-- [Como Tratar os Responses/Callback?](Documentation/customViewANDROID.md);
+- [Configuração Inicial no iOS](Documentation/ios/InitConfig.md);
+- [Configuração do FlutterEngine e MethodChannel](Documentation/ios/FlutterEngine.md);
+- [Como configurar o Liveness3DUser()?]();
+- [Como fazer a estilização dos Liveness3DTextsKey()?]();
+- [Como fazer a estilização do Liveness3DTheme()?]();
+- [Guia de customização do Liveness3DTheme]();
+- [Guia de Implementação de View Customizada]();
+- [Como Enviar para o Flutter Responses/Callback?](Documentation/ios/Callback.md);
 
 ### Como executar o clone do Repositório?
 
