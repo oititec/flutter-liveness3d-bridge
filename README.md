@@ -22,7 +22,7 @@ O Flutter fornece duas classes principais para facilitar a comunicação atravé
  <img src="https://miro.medium.com/v2/0*33bydz0LNvKaJ4kY.png"/>
 </p>
 
-## Instruções de Uso e Integração
+## Sumário
 
 As instruções de uso, integração, implementação e customização do **Liveness 3D** podem ser acessadas através do sumário abaixo:
 
