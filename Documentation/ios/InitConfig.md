@@ -23,7 +23,7 @@ No arquivo `Podfile` na raiz da pasta iOS, adicione o endereço e o Pod do repos
 
 ## Passo 3: Instalar Dependências
 
-Execute o comando de instalação dos Pods.
+Ainda na pasta `ios` Execute o comando de instalação dos Pods.
 
 ```bash
 pod install
