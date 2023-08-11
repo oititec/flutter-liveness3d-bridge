@@ -1,10 +1,11 @@
 import './platform_interface.dart';
 
 class OitiLiveness3d {
-  static Future startLiveness(
+  static Future startLiveness3d(
     String appKey,
     bool isProd,
   ) async {
-    return await OitiLiveness3dPlatform.instance.startLiveness(appKey, isProd);
+    return await OitiLiveness3dPlatform.instance
+        .startLiveness3d(appKey, isProd);
   }
 }

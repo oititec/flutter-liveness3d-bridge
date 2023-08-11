@@ -16,7 +16,7 @@ abstract class OitiLiveness3dPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future startLiveness(String appKey, bool isProd) {
+  Future startLiveness3d(String appKey, bool isProd) {
     throw UnimplementedError('Liveness3D() has not been implemented.');
   }
 }

@@ -2,7 +2,7 @@
 
 ## Passo 1: Liveness3DDelegate
 
-Crie um grupo chamado Extensions para chamar o Delegate do SDK e retornar os resultados de erro ou de sucesso da seguinte forma:
+Crie uma grupo função dentro de `FlutterActivity` chamada o onActivityResult para retornar os resultados de erro ou de sucesso quando tiver algum result da Activity da seguinte forma:
 
 - [Acessar arquivo de exemplo](../../android/app/src/main/kotlin/br/com/example/flutter/liveness3d/bridge/MainActivity.kt).
 

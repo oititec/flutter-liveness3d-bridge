@@ -7,7 +7,7 @@ class MethodChannelOitiLiveness3d extends OitiLiveness3dPlatform {
   final methodChannel = const MethodChannel('oiti_liveness3d');
 
   @override
-  Future startLiveness(
+  Future startLiveness3d(
     String appKey,
     bool isProd,
   ) async {

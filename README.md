@@ -19,7 +19,7 @@ Para realizar a comunicação entre o código Dart e o código nativo da platafo
 O Flutter fornece duas classes principais para facilitar a comunicação através dos canais de plataforma: MethodChannel e EventChannel. Nesse projeto utilizamos apenas do MethodChannel que permite que você invoque métodos do código nativo a partir do Dart e obtenha callback`s.
 
 <p align="center">
- <img src="https://miro.medium.com/v2/0*33bydz0LNvKaJ4kY.png"/>
+ <img src="Documentation/imgs/Liveness3dBridge.png"/>
 </p>
 
 ## Sumário

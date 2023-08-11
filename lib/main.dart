@@ -48,7 +48,7 @@ class _MyAppState extends State<MyApp> {
               child: ElevatedButton(
                 onPressed: () async {
                   try {
-                    await OitiLiveness3d.startLiveness(appKey, isProd)
+                    await OitiLiveness3d.startLiveness3d(appKey, isProd)
                         .then((result) => _onLiveness3DSuccess(result));
                   } on PlatformException catch (error) {
                     _onLiveness3DError(error);
