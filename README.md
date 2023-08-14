@@ -40,10 +40,6 @@ As instruções de uso, integração, implementação e customização do **Live
 - [Configuração Inicial no Android](Documentation/android/InitConfig.md);
 - [Configuração do FlutterEngine e MethodChannel](Documentation/android/FlutterEngine.md);
 - [Como Enviar para o Flutter os Responses/Callback](Documentation/android/Callback.md);
-- [Como configurar o Liveness3DUser()?](https://devcenter.certiface.io/docs/guia-de-uso-e-integracao-android);
-- [Como fazer a estilização dos Liveness3DTextsKey()?](https://devcenter.certiface.io/docs/customizacao-telas-de-inicializacao-liveness3d-android);
-- [Guia de customização do Liveness3DTheme](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Liveness3D-Liveness3DTheme.md);
-- [Guia de Implementação de View Customizada](https://devcenter.certiface.io/docs/customizacao-telas-de-inicializacao-liveness3d-android);
 
 Acesse o nosso DevCenter para consultar os guias de [Integração](https://devcenter.certiface.io/docs/guia-de-uso-e-integracao-android) e [Customização](https://devcenter.certiface.io/docs/customizacao-telas-de-inicializacao-liveness3d-android) para o Liveness 3D Android.
 
@@ -52,10 +48,6 @@ Acesse o nosso DevCenter para consultar os guias de [Integração](https://devce
 - [Configuração Inicial no iOS](Documentation/ios/InitConfig.md);
 - [Configuração do FlutterEngine e MethodChannel](Documentation/ios/FlutterEngine.md);
 - [Como Enviar para o Flutter Responses/Callback?](Documentation/ios/Callback.md);
-- [Como configurar o Liveness3DUser()?](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-Usage.md);
-- [Como fazer a estilização dos Liveness3DTextsKey()?](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-CustomTexts.md);
-- [Guia de customização do Liveness3DTheme](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-Liveness3DTheme.md);
-- [Guia de Implementação de View Customizada](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-CustomView.md);
 
 Acesse o nosso DevCenter para consultar os [guias de Integração e Customização para o Liveness 3D iOS](https://devcenter.certiface.io/docs/liveness3d-monolito-ios).
 
