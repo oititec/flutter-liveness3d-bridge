@@ -1,4 +1,8 @@
-# Sobre este Repositório
+<p align="center">
+ <img src="Documentation/imgs/OitiHeader.png"/>
+</p>
+
+# Flutter (Bridge) para Liveness 3D.
 
 Este repositório é responsável pela conexão do **Platform Channels do Flutter**, com ele é possível instalar e usar a SDK do Liveness3D da Oititec.
 
@@ -16,7 +20,7 @@ Para realizar a comunicação entre o código Dart e o código nativo da platafo
 
 ### MethodChannel:
 
-O Flutter fornece duas classes principais para facilitar a comunicação através dos canais de plataforma: MethodChannel e EventChannel. Nesse projeto utilizamos apenas do MethodChannel que permite que você invoque métodos do código nativo a partir do Dart e obtenha callback`s.
+O Flutter fornece duas classes principais para facilitar a comunicação através dos canais de plataforma: MethodChannel e EventChannel. **Nesse projeto utilizamos apenas do MethodChannel que permite que você invoque métodos do código nativo a partir do Dart e obtenha callback`s**.
 
 <p align="center">
  <img src="Documentation/imgs/Liveness3dBridge.png"/>
@@ -35,21 +39,25 @@ As instruções de uso, integração, implementação e customização do **Live
 
 - [Configuração Inicial no Android](Documentation/android/InitConfig.md);
 - [Configuração do FlutterEngine e MethodChannel](Documentation/android/FlutterEngine.md);
+- [Como Enviar para o Flutter os Responses/Callback](Documentation/android/Callback.md);
 - [Como configurar o Liveness3DUser()?](https://devcenter.certiface.io/docs/guia-de-uso-e-integracao-android);
 - [Como fazer a estilização dos Liveness3DTextsKey()?](https://devcenter.certiface.io/docs/customizacao-telas-de-inicializacao-liveness3d-android);
 - [Guia de customização do Liveness3DTheme](https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Liveness3D-Liveness3DTheme.md);
 - [Guia de Implementação de View Customizada](https://devcenter.certiface.io/docs/customizacao-telas-de-inicializacao-liveness3d-android);
-- [Como Enviar para o Flutter os Responses/Callback](Documentation/android/Callback.md);
+
+Acesse o nosso DevCenter para consultar os guias de [Integração](https://devcenter.certiface.io/docs/guia-de-uso-e-integracao-android) e [Customização](https://devcenter.certiface.io/docs/customizacao-telas-de-inicializacao-liveness3d-android) para o Liveness 3D Android.
 
 **iOS:**
 
 - [Configuração Inicial no iOS](Documentation/ios/InitConfig.md);
 - [Configuração do FlutterEngine e MethodChannel](Documentation/ios/FlutterEngine.md);
+- [Como Enviar para o Flutter Responses/Callback?](Documentation/ios/Callback.md);
 - [Como configurar o Liveness3DUser()?](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-Usage.md);
 - [Como fazer a estilização dos Liveness3DTextsKey()?](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-CustomTexts.md);
 - [Guia de customização do Liveness3DTheme](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-Liveness3DTheme.md);
 - [Guia de Implementação de View Customizada](https://github.com/oititec/liveness-ios-sdk/blob/main/Documentation/Liveness3D/Liveness3D-CustomView.md);
-- [Como Enviar para o Flutter Responses/Callback?](Documentation/ios/Callback.md);
+
+Acesse o nosso DevCenter para consultar os [guias de Integração e Customização para o Liveness 3D iOS](https://devcenter.certiface.io/docs/liveness3d-monolito-ios).
 
 ### Como executar o clone do Repositório?
 
