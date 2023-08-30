@@ -39,6 +39,8 @@ import FaceCaptcha
         let appKey = arguments?["appkey"] as? String ?? ""
         let isProd = arguments?["isProd"] as? Bool ?? false
         
+        let theme = Liveness3dTheme().builder()
+        
         //Consultar a documentação sobre Customização de Textos
         // https://devcenter.certiface.io/docs/customizacao-liveness3d-ios#customiza%C3%A7%C3%A3o-das-telas-de-textos
         let liveness3DTexts: [Liveness3DTextKey: String] = [
@@ -51,6 +53,8 @@ import FaceCaptcha
         let user = Liveness3DUser(
             appKey: appKey,
             environment: isProd == true ? .PRD : .HML,
+            defaultTheme: theme,
+            lowLightTheme: theme,
             texts: liveness3DTexts
         )
         

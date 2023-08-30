@@ -20,7 +20,8 @@ class Liveness3dActivity(
 
         return Liveness3DUser(
             appKey = appKey!!,
-            environment = env
+            environment = env,
+            Liveness3dTheme = Liveness3dTheme(context).toLiveness3DTheme()
         )
     }
 
